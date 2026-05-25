@@ -18,4 +18,8 @@
 
 ## Conclusion
 
-The Monte Carlo simulation utilizing a large number of trials converges to the analytical probabilities with a high degree of precision. The deviations observed are minimal, illustrating the Law of Large Numbers. This confirms the validity of the simulation model for analyzing probability distributions of random events.
+The Monte Carlo simulation utilizing a large number of trials converges to the
+analytical probabilities with a high degree of precision. The deviations
+observed are minimal, illustrating the Law of Large Numbers. This confirms the
+validity of the simulation model for analyzing probability distributions of
+random events.
