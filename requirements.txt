@@ -1,0 +1,4 @@
+networkx==3.2.1
+matplotlib==3.8.2
+pytest==8.0.0
+ruff==0.2.2

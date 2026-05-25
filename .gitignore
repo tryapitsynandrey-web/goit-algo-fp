@@ -1,0 +1,113 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+.pyrefly/
+.hypothesis/
+.dmypy.json
+dmypy.json
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+__pypackages__/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.secret
+
+# Agent local files
+.agents/
+
+# Logs and runtime files
+logs/
+*.log
+*.out
+*.err
+
+# Test and coverage outputs
+.coverage
+.coverage.*
+coverage.xml
+coverage.json
+htmlcov/
+.tox/
+.nox/
+junit.xml
+pytest-report.xml
+
+# Build and packaging outputs
+build/
+dist/
+site/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+*.whl
+
+# Generated project outputs
+data/outputs/
+reports/generated/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# Keep repository documentation and source files
+!README.md
+!LICENSE
+!requirements.txt
+!pyproject.toml
+!.gitattributes
+!src/
+!tests/
+!scripts/
+!config/
+!reports/
+!data/
+!data/README.md
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Local databases and storage artifacts
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Miscellaneous local artifacts
+.cache/
+tmp/
+temp/

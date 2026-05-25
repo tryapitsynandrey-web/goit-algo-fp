@@ -1,0 +1,20 @@
+{
+  "include": ["src", "tests", "scripts", "config"],
+  "exclude": [
+    ".agents",
+    ".venv",
+    "venv",
+    "__pycache__",
+    ".pytest_cache",
+    ".ruff_cache",
+    ".mypy_cache",
+    "data/outputs"
+  ],
+  "extraPaths": ["."],
+  "venvPath": ".",
+  "venv": ".venv",
+  "typeCheckingMode": "basic",
+  "reportMissingImports": true,
+  "reportMissingTypeStubs": false,
+  "reportMissingModuleSource": false
+}
